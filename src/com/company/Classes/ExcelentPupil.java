@@ -1,23 +1,25 @@
-package com.company;
+package com.company.Classes;
+
+import com.company.Classes.Pupil;
 
 public class ExcelentPupil extends Pupil {
     @Override
-    String Study() {
+    public String Study() {
         return (super.Study() + "Excellent ");
     }
 
     @Override
-    String  Read() {
+    public String  Read() {
         return super.Read() + "Excellent ";
     }
 
     @Override
-    String Write() {
+    public String Write() {
         return super.Write() + "Excellent ";
     }
 
     @Override
-    String Relax() {
+    public String Relax() {
         return super.Relax() + "Bad ";
     }
     public ExcelentPupil()

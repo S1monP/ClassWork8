@@ -1,7 +1,9 @@
-package com.company;
+package com.company.Classes;
 
-public class Pupil {
-    String name;
+import com.company.Interfaces.IPupil;
+
+public  abstract class Pupil implements IPupil {
+    private String name;
 
     public String getName() {
         return name;
@@ -17,16 +19,18 @@ public class Pupil {
     public Pupil(){
 
     }
-    String Study(){
+
+    public String Study(){
         return "Study-";
     }
-    String Read(){
+
+    public String Read(){
         return "Read-";
     }
-    String Write(){
+    public String Write(){
         return "Write-";
     }
-    String Relax(){
+    public String Relax(){
         return "Relax-";
     }
 
