@@ -18,6 +18,7 @@ public ClassRoom(String pupil1, String pupil2, String pupil3, String pupil4, Str
 }
     Pupil pupil6;
 
+
     @Override
     public String toString() {
         return "Classroom: " + pupil1 + pupil2 + pupil3 + pupil4 + pupil6;
